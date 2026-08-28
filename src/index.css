@@ -1,0 +1,50 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;
+    background:#f4f6f8;
+    color:#222}
+    button,input,select{font:inherit;padding:9px;
+    border-radius:7px;
+    border:1px solid #ccc}
+    button{cursor:pointer;
+        background:#222;
+        color:#fff}
+        .app{max-width:1100px;margin:auto;padding:20px}
+        .tabs{display:flex;flex-wrap:wrap;gap:6px}
+        .tabs button.active{background:#4a67d6}
+        .box,.card{background:#fff;
+            border-radius:12px;
+            padding:18px;
+            margin-top:18px;
+            box-shadow:0 2px 8px #0001}
+            .card{margin:10px 0;
+                box-shadow:none;
+                border:1px solid #ddd}
+                .row{display:flex;
+                    gap:10px;
+                    flex-wrap:wrap;
+                    align-items:center}
+                    .error{color:#b00020}
+                    .muted{color:#666}
+                    .shopnav{display:flex;gap:8px;
+                        flex-wrap:wrap;
+                        margin:10px 0}
+                        .grid{display:grid;
+                            grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+                            gap:14px}
+                            .product{background:#fff;
+                                border:1px solid #ddd;
+                                border-radius:12px;
+                                padding:15px}
+                                .price{font-weight:bold;
+                                    font-size:18px}
+                                    .badge{display:inline-block;padding:3px 8px;
+                                        border-radius:20px;
+                                        background:#eee}
+                                        .qty{display:flex;gap:6px;
+                                            align-items:center}
+                                            .success{color:green}.dark{background:#1d1d1d;
+                                                color:#fff;padding:18px;
+                                                border-radius:10px}
+                                                .accordion-title{width:100%;
+                                                    text-align:left;
+                                                    margin-top:8px}
