@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>React Level 2 - Intermediate</h1>
+      <h1>React-lv2 nofal web</h1>
 
       <div className="tabs">
         {challenges.map((_, index) => (
